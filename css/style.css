@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(red, orange, yellow, green, blue, purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.content {
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px grey;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px grey;
+}
+th, td {
+    border: 1px solid grey;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+th {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+td {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+input[type="text"] {
+    width: 70px;
+}
+input[name="main"] {
+    width: 30px;
+}
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+img {
+    width: 100px;
+    border-radius: 50%;
+}
